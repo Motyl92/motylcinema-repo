@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-    <addon id="plugin.video.motylcinema" name="Motýľ Cinema" version="1.0.0" provider-name="MotylTeam">
-        <requires>
-            <import addon="xbmc.python" version="2.25.0"/>
-        </requires>
-        <extension point="xbmc.python.pluginsource" library="default.py">
-            <provides>video</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="sk">Motýľ Cinema - Webshare filmy a seriály</summary>
-            <description lang="sk">Addon na prehrávanie filmov a seriálov s CZ/SK dabingom z Webshare</description>
-            <platform>all</platform>
-        </extension>
-    </addon>
-</addons>
+<addon id="repository.motylcinema" name="Motýľ Cinema Repo" version="1.0.0" provider-name="MotylTeam">
+    <extension point="xbmc.addon.repository" name="Motýľ Cinema Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/motyl92/motylcinema-repo/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/motyl92/motylcinema-repo/main/addons.xml.md5</checksum>
+            <datadir>https://raw.githubusercontent.com/motyl92/motylcinema-repo/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="sk">Repozitár pre addon Motýľ Cinema</summary>
+        <description lang="sk">Repozitár pre jednoduchú inštaláciu a aktualizáciu Motýľ Cinema.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
