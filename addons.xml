@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="plugin.video.motylcinema" name="Motýľ Cinema" version="1.0.0" provider-name="MotylTeam">
+        <requires>
+            <import addon="xbmc.python" version="2.25.0"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="sk">Motýľ Cinema - Webshare filmy a seriály</summary>
+            <description lang="sk">Addon na prehrávanie filmov a seriálov s CZ/SK dabingom z Webshare</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+</addons>
